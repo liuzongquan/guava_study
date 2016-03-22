@@ -67,5 +67,16 @@ guava testing code follow &lt;&lt;Getting Started with Google Guava&gt;&gt;</des
 				</plugin>
 			</plugins>
 		</pluginManagement>
+		<plugins>
+			<plugin>
+				<groupId>org.codehaus.mojo</groupId>
+				<artifactId>exec-maven-plugin</artifactId>
+				<version>2.1</version>
+			</plugin>
+		</plugins>
 	</build>
+	<packaging>pom</packaging>
+	<modules>
+		<module>chapter_1</module>
+	</modules>
 </project>
